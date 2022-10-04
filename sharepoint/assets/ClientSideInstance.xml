@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="ImportantCompanyAnnouncements"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="6e32700e-2137-49cc-b6b9-09cc69c958ff"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

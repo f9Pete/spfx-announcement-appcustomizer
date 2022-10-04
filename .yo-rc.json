@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "spfx-company-announcements-appcustomizer",
+    "libraryId": "73dd933e-1b4a-4587-b581-b8b5439bb2bd",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-company-announcements-appcustomizer",
+    "solutionShortDescription": "spfx-company-announcements-appcustomizer description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

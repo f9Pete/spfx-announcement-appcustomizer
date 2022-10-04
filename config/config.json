@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "important-company-announcements-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/importantCompanyAnnouncements/ImportantCompanyAnnouncementsApplicationCustomizer.js",
+          "manifest": "./src/extensions/importantCompanyAnnouncements/ImportantCompanyAnnouncementsApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ImportantCompanyAnnouncementsApplicationCustomizerStrings": "lib/extensions/importantCompanyAnnouncements/loc/{locale}.js"
+  }
+}
