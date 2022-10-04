@@ -5,9 +5,8 @@ import {
   BaseApplicationCustomizer,
   PlaceholderContent,
   PlaceholderName
-} from '@microsoft/sp-application-base';
-import { Dialog } from '@microsoft/sp-dialog';
-
+} 
+from '@microsoft/sp-application-base';
 import * as strings from 'ImportantCompanyAnnouncementsApplicationCustomizerStrings';
 
 const LOG_SOURCE: string = 'ImportantCompanyAnnouncementsApplicationCustomizer';
@@ -53,7 +52,7 @@ export default class ImportantCompanyAnnouncementsApplicationCustomizer
           })
         .then(response => response.json())
         .then(announcements => {
-          const announcementsHtml = announcements.value.map((announcement: { Title: any; Description: any; }) =>
+          const announcementsHtml = announcements.value.map((announcement: { Title: string; Description: string; }) =>
             `<li>${announcement.Title}</li>
              <li>${announcement.Description}`);
           this._topPlaceholder.domElement.innerHTML = `<div class="${styles.app}">
